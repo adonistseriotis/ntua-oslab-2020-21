@@ -1,0 +1,1 @@
+mkdir /home/user/host && sshfs -o allow_other user@10.0.2.2:/home/user/CryptoChat/VirtIO/virtio-cryptodev /home/user/host && cd /home/user/host/guest && make &&  ./crypto_dev_nodes.sh && insmod ./virtio_crypto.ko

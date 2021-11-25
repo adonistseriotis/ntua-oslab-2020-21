@@ -1,0 +1,17 @@
+1: cat <<\EOF >.hello_there Hello
+2: sudo chown root:root .hello_there
+   sudo chmod 700 .hello_there
+3: kill -18 $(pstree -ps | grep riddle | sed 's/.*riddle(\(.*\))/\1/')
+4: mkfifo magic_mirror
+5: table.c
+6: player1 player2 challenge6 score pingpong.c
+7: ln .hello_there .hey_there (Hard link)
+8: BigData.c
+9: try.c parallel with riddle
+10: touch secret_numberOG
+    ln secret_numberOG secret_number
+11:secret.c
+12:memput.c
+13:savepages.c
+14:sudo echo 32766 > /proc/sys/kernel/ns_last_pid && ./riddle
+
